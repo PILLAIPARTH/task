@@ -1,0 +1,153 @@
+
+
+.bck{
+    background-color: rgb(249, 244, 235);
+    width:100%;
+    height: 700px;
+    justify-content: space-between;
+    z-index: -1;
+    display: flex;
+    
+}
+.container {
+    text-align: center;
+    
+    
+}
+
+#text-and-button {
+    margin-bottom: 5px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    background: url('C:\Seawind_task\task\src\images\pexels-ibraim-leonardo-3290060.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.a1{
+  background: url('C:\Seawind_task\task\src\images\download (1).jpeg') no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.a2{
+  background: url('C:\Seawind_task\task\src\images\download (3).jpeg') no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.a3{
+  background: url('C:\Seawind_task\task\src\images\acab293e21a42a73c2aaa6ae025d0738.jpg') no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+#text {
+    font-size: 24px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#button {
+    background-color:#ff1493;;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    
+    cursor: pointer;
+    width:175px
+}
+ .left{
+  position: relative;
+  left: 350px;
+  
+  }
+   
+  .r{
+    position: relative;
+    right: 350px;
+  }
+
+  .b{
+    position: relative;
+    top:150px;
+  }
+
+  .k{
+    position: relative;
+    top:80px
+  }
+  .os{
+    width: 100%;
+    height: 150px;
+    background: url('C:\Seawind_task\task\src\images\WhatsApp Image 2023-11-05 at 16.10.25.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+
+
+
+  @media screen and (max-width: 1157px) {
+   
+    .bck{
+      width: 400%;
+
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .os {
+      position: relative;
+      left:900px;
+    }
+    
+   
+  }
+
+  
+  @media screen and (max-width: 1158px) {
+    .os {
+      position: relative;
+      left:1700px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .os {
+      position: relative;
+      left:1000px
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .os {
+        position: relative;
+        left:720px
+      }
+  }
+
+
+  @media screen and (max-width: 380px) {
+    .os {
+        position: relative;
+        left:500px
+      }
+  }
+
+ 

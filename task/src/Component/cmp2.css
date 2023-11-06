@@ -1,0 +1,46 @@
+.img1 {
+    background: url('C:\Seawind_task\task\src\images\WhatsApp Image 2023-11-04 at 20.47.59.jpeg') no-repeat center center;
+    background-size: cover; /* Make the background image responsive */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px /* Set the minimum height to occupy the full viewport height */
+  }
+
+  @media screen and (max-width: 800px) {
+    .img1 {
+      position: relative;
+      left:900px;
+    }
+  }
+
+  
+  @media screen and (max-width: 1158px) {
+    .img1 {
+      position: relative;
+      left:1700px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .img1 {
+      position: relative;
+      left:1000px
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .img1 {
+        position: relative;
+        left:720px
+      }
+  }
+
+
+  @media screen and (max-width: 380px) {
+    .img1 {
+        position: relative;
+        left:500px
+      }
+  }

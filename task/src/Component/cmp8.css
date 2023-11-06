@@ -1,0 +1,35 @@
+.bck2{
+    background:url('C:\Seawind_task\task\src\images\pngtree-abstract-background-black-shiny-curved-shape-with-gold-threads-lines-luxury-image_1389840.jpg') no-repeat ;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    color:white;
+    
+  
+    position: relative;
+    top:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo1 {
+    font-size: 48px;
+    margin-top: 20px;
+    color: #ff1493;;
+}
+
+.copyright {
+    font-size: 16px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1157px) {
+   
+    .bck2{
+      width: 400%;
+
+    }
+  }

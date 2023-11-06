@@ -1,0 +1,113 @@
+ .img-container{
+    width:100%;
+    height:350px;
+    background: url('C:\Seawind_task\task\src\images\girl-1344646_640 (2).jpg') no-repeat ;
+    background-size:cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} 
+
+.BAM{
+    position: relative;
+    display: flex;
+    color:white;
+    font-size: 50px;
+    justify-content: center;
+    top:75px;
+}
+
+
+
+.AM1{
+   
+    
+   position: relative;
+    display: flex;
+    
+    justify-content: center;
+    top:50px
+    
+
+   
+}
+
+.AN{
+    
+    background-color: #ff1493;
+    position: relative;
+    display: flex;
+    width: 120px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.AN:hover{
+    background-color: #f45bac;
+}
+
+.MC{
+    
+        background: url('C:\Seawind_task\task\src\images\WhatsApp Image 2023-11-05 at 13.25.44.jpeg') no-repeat center center;
+        height: 200px;
+         background-size: cover;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1157px) {
+  
+   .img-container{
+    width: 400%;
+
+   }
+
+ 
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .MC {
+      position: relative;
+      left:900px;
+    }
+  }
+
+  
+  @media screen and (max-width: 1158px) {
+    .MC {
+      position: relative;
+      left:1700px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .MC {
+      position: relative;
+      left:1000px
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .MC {
+        position: relative;
+        left:720px
+      }
+  }
+
+
+  @media screen and (max-width: 380px) {
+    .MC {
+        position: relative;
+        left:500px
+      }
+  }
+
+
